@@ -35,9 +35,9 @@
   }
 
 
-  public function additem(){
+  public function item_add(){
      $additem=[];
-     $this->view('pages/additem',$additem);
+     $this->view('pages/item_add',$additem);
 
   }
  
