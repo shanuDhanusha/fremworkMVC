@@ -33,7 +33,7 @@ body{
   height: 330px;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
   padding-inline: 1rem;
   padding-block-start: 5rem;
   background-color: aqua;
@@ -52,7 +52,7 @@ body{
 /* strat make style for input filed-left */
 .input-filed-div{
   width: 320px;
-  height: 80px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   background-color: blueviolet;
@@ -60,5 +60,7 @@ body{
 /* input filed style  */
 .input-filed-div input[type=text]{
   width: 310px;
-  height: 60px;
+  height: 30px;
+  padding-inline: 1rem;
+  
 }

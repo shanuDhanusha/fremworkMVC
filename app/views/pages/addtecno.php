@@ -26,7 +26,10 @@
                                  <a href="">Delete...</a>
                                 <div class="content">
                                     
-                                    <p><?php echo 'my best palnt is bonsi we can sell more prices we can try to learn this subject sdsafghjgcvxvsgfhyghjjka afsfgygHC adsagydgadjabtgwdfgjhjkxcvjkhudfghuisdhjgdshjgh dhsfisghduahgiash ';?></p>
+                                    <p><?php echo 'my best palnt is bonsi we can sell more prices we can try to learn this subject sdsafghjgcvxvsgfhyghjjka afsfgygHC adsagydgadjabtgwdfgjhjkxcvjkhudfghuisdhjgdshjgh dhsfisghduahgiash fsdhidgisygis hgigsigs ehfsgfs dsfsdfsdfsdfsdsaggf gdgdgg ggggdgdfggg gdg
+                                    dsgdagfagfgadgdgdagdgdfg fsjafjsdjfhsh dhfsdhfsd fsdfhdsf fsdfksfk asfjsdf dshfjsdfh aaaaaaaaaaaaaa
+                                    aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaa adasdafhh ada aaaaaaaaaaaaa safdsfiudif fiidfyi a
+                                    aaaaaaaaaaaaaaaaaaaaadd fsdfwefw         asdsaaff';?></p>
                                  </div>
 
 
