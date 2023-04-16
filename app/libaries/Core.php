@@ -21,8 +21,10 @@
             $url = $this->getUrl();
 
             if(file_exists('../app/controllers/'.ucwords($url[0]).'.php'))
-            {
+            { 
+                
                 $this->currentController = ucwords($url[0]);
+                
                 unset($url[0]);
             }
 
@@ -34,6 +36,7 @@
             {
                 if(method_exists($this->currentController, $url[1]))
                 {
+                    
                     $this->currentMethod = $url[1];  
                     unset($url[1]);
                 }
