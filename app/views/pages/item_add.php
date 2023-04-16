@@ -2,33 +2,35 @@
 
       <div class="contener">
          
-            <form action="" method="post">
+            <form action=" <?php echo URLROOT.'/Pages/item_add';?> "  method="post">
                   <div class="input-fild-style">
-                      <label for="">Title:</label>
+                      <label for=" ">Title:</label>
                       <input type="text" name="title" id="title" placeholder=Title>
-                      <label for=""> *error</label>
+                      <label for=" "> <?php 
+                                    echo $data['title_error'];
+                                ?></label>
 
                     </div>
                 
                  <div class="input-fild-style">
                       <label for="">Catagory:</label>
-                      <input type="text" name="title" id="title" placeholder=Catagory>
-                      <label for=""> *error</label>
+                      <input type="text" name="catagory" id="title" placeholder=Catagory>
+                      <label for=""> </label>
 
                     </div>
 
                <div class="input-fild-style">
                       <label for="">Date:</label>
                       <input type="date" name="date" id="date" >
-                      <label for=""> *error</label>
+                      <label for=""> </label>
 
                    
                    </div>
 
                 <div class="input-fild-style">
                       <label for="">Images:</label>
-                      <input type="file" name="image" id="image">
-                      <label for=""> *error</label>
+                      <input type="file" name='files[]' multiple id="image" accept="image/*" >
+                      <label for=""> </label>
 
                    
                    </div>
@@ -36,14 +38,14 @@
                 <div class="input-fild-style">
                       <label for="">Content:</label>
                       <textarea name="content" id="content" cols="30" rows="5"></textarea>
-                      <label for=""> *error</label>
+                      <label for=""> </label>
 
                     </div>
                     
                
-
-                   <button type="submit">save</button>
-
+                   <div class="input-fild-style"> <button type="submit">save</button></div>   
+                  
+                               <!-- item add form  -->
 
               </form>
 

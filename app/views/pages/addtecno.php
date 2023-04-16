@@ -9,7 +9,7 @@
                 
                  <!-- add tecno start div conterner  -->
                 <div class="addtecno-div">
-                    <div class="add-item-div"><a href="<?php echo 'item_add';?>"><i class="fa-solid fa-layer-group"></i>Add Item</a></div>
+                    <div class="add-item-div"><a href="<?php echo URLROOT.'/Pages/item_add';?>"><i class="fa-solid fa-layer-group"></i>Add Item</a></div>
                         <div class="pri-view-tecno">
 
                              <div class="tecno-title-profile-filed">

@@ -11,10 +11,10 @@
 
 
   public function home(){
-    $post=$this->postModel->getPosts();
+   $post=$this->postModel->getPosts();
     
     $data=[
-      'post'=>$post
+      'post'=>' '
 
     ];
 
@@ -34,10 +34,51 @@
 
   }
 
-
+  //new tecnholagy add 
   public function item_add(){
-     $additem=[];
-     $this->view('pages/item_add',$additem);
+      
+   
+
+     
+
+     if($_SERVER['REQUEST_METHOD']=='POST'){
+      //sanities data
+      $_POST=filter_input_array(INPUT_POST,FILTER_SANITIZE_STRING);
+      $additem=[
+        'title'=> trim($_POST['title']),
+        'catagory'=>trim($_POST['catagory']),       
+         'title_error' =>'',
+         'catagory_error' =>''
+
+      ]; 
+      //vali date title 
+      if(empty($additem['title'])){
+        $additem['title_error']='please enter title';
+          
+      }
+    
+
+      if(empty($additem['title_error'])){
+        $this->view('pages/addtecno',$additem);
+          exit();
+
+      }else{
+        die('pakaaaa');
+        $this->view('pages/item_add',$additem);
+      }
+      
+     
+      
+
+
+    }else{
+          
+      $additem=[
+          'title_error'=>' '
+      ];
+      $this->view('pages/item_add',$additem);
+
+     }
 
   }
  
